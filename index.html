@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hello, I'm Rajkamal</h1>
+            <p>A passionate Web Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="rajkamal.jpg" alt="Your Photo">
+            <div class="about-text">
+                <p>Hi, I'm Rajkamal, a web developer with experience in HTML, CSS, JavaScript, and more. I have a background in BSC CS and have worked on various projects including WEB APPLICATION.</p>
+                <p>I am passionate about creating dynamic and responsive websites that provide a great user experience. My skills include:</p>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of Project 3</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
